@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Math Fun Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🧠 Math Fun Game</h1>
+  <p>Welcome! Practice your addition, subtraction, multiplication, and division here!</p>
+
+  <div class="math-box">
+    <input type="number" id="num1" placeholder="Enter first number">
+    <input type="number" id="num2" placeholder="Enter second number">
+
+    <select id="operation">
+      <option value="add">➕ Add</option>
+      <option value="subtract">➖ Subtract</option>
+      <option value="multiply">✖ Multiply</option>
+      <option value="divide">➗ Divide</option>
+    </select>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <p id="result">Result: </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
